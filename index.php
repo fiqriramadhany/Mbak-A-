@@ -1,5 +1,5 @@
                                                                                         
-<title>Meifa~</title>
+<title>Mbak A~</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
