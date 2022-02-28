@@ -1,5 +1,5 @@
                                                                                         
-<title>Mbak A~</title>
+<title>Meifa~</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -227,29 +227,29 @@
 		if(H < 4){
 			text = "Jangan Begadang, Tidur. <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
 		}else if (H < 9){
-			text = "Good Morning, Mbak A <a class=\"love\" style=\"color: black;\" href=\"#\" onclick=jadian()>&hearts;</a>";
+			text = "Good Morning, Meifa <a class=\"love\" style=\"color: black;\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H <= 12){
 			text = "Jangan Lupa Makan Siang <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 15){
-			text = "Good Afternoon, Mbak A <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
+			text = "Good Afternoon, Meifa <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 19){
-			text = "Have A Nice Day, Mbak A <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
+			text = "Have A Nice Day, Meifa <a class=\"love\" href=\"#\" style=\"color: black;\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 21){
-			text = "Good Evening, Mbak A <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
+			text = "Good Evening, Meifa <a class=\"love\" href=\"#\" onclick=jadian()>&hearts;</a>";
 		}else if(H < 22){
 			text = "Siapin Buat Besok! Belajar <a class=\"love\" href=\"#\" onclick=alert('Semangat!')>&hearts;</a>"
 		}else if(H < 25){
-			text = "Good Night, Mbak A <a class=\"love\" href=\"#\" onclick=alert('Met tidurr!')>&hearts;</a>";
+			text = "Good Night, Meifa <a class=\"love\" href=\"#\" onclick=alert('Met tidurr!')>&hearts;</a>";
 		}
 
-		document.getElementById("Mbak A").innerHTML = text;
+		document.getElementById("Meifa").innerHTML = text;
 	}
 
 	function jadian(){
-		document.getElementById("Mbak A").innerHTML = "Jadian yuk? <a class=\"love\" onclick=jadian()>&hearts;</a>";
+		document.getElementById("Meifa").innerHTML = "Jadian yuk? <a class=\"love\" onclick=jadian()>&hearts;</a>";
 	}
 	waktu();
 	background();
-	Mebak A();
+	Meifa();
 	
 </script>
